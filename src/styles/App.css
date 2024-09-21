@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#root {
+	min-width: 300px;
+	background: #E5D9F2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
