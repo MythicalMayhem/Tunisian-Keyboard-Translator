@@ -4,7 +4,7 @@ let BCDEFGHIJKLMNOPQRSTUVWXYZ = ""
 const map: alphabet = {
 	a: "ا",
 	b: "ب",
-	c: "ش",
+	c: "ك",
 	d: "د",
 	e: "ى",
 	f: "ف",
