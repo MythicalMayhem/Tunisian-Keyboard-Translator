@@ -2,7 +2,7 @@ import "../styles/module.css"
 function MainInput() {
     return (
         <fieldset>
-            <legend >Input </legend>
+            <p className="legend" >Input </p >
             <textarea spellCheck='false' className="big-input" placeholder="ekteb 7keya" ></textarea>
         </fieldset>
     );

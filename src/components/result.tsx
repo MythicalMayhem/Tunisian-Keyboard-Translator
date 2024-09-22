@@ -1,9 +1,13 @@
 function Result() {
     return (
         <fieldset className="result">
-            <legend>
+            <p className="legend">
                 Result
-            </legend>
+            </p>
+            <p className="text">
+
+                fezazaeffezaazef
+            </p>
         </fieldset>
     );
 }
