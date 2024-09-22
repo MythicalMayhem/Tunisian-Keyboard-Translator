@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Tunisian-keyboard/static/css/main.37f6e6f0.css",
-    "main.js": "/Tunisian-keyboard/static/js/main.8c6bc430.js",
+    "main.css": "/Tunisian-keyboard/static/css/main.db9c2e32.css",
+    "main.js": "/Tunisian-keyboard/static/js/main.39b4f5ea.js",
     "index.html": "/Tunisian-keyboard/index.html",
-    "main.37f6e6f0.css.map": "/Tunisian-keyboard/static/css/main.37f6e6f0.css.map",
-    "main.8c6bc430.js.map": "/Tunisian-keyboard/static/js/main.8c6bc430.js.map"
+    "main.db9c2e32.css.map": "/Tunisian-keyboard/static/css/main.db9c2e32.css.map",
+    "main.39b4f5ea.js.map": "/Tunisian-keyboard/static/js/main.39b4f5ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f6e6f0.css",
-    "static/js/main.8c6bc430.js"
+    "static/css/main.db9c2e32.css",
+    "static/js/main.39b4f5ea.js"
   ]
 }
