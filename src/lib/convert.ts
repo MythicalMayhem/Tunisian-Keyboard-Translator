@@ -22,15 +22,16 @@ const map: alphabet = {
 	r: "ر",
 	s: "س",
 	t: "ت",
-	u: "ى",
+	u: "",
 	v: "ڥ",
 	w: "و",
-	y: "ي",
+	y: "ى",
 	z: "ز",
 	A: "أ",
 	S: "ص",
 	T: "ط",
-	O: "أُ",
+	O: "و",
+	Y: "ي",
 	"2": "ء",
 	"3": "ع",
 	"7": "ح",
@@ -54,20 +55,26 @@ export const convert = (s: string) => {
 			continue
 		}
 		const letter: string = s[i]
-		if (i === 0 && letter === "o") {
-			res = res + map["O"]
-			continue
-		}
 		if (i === s.length - 1) {
-			res = res + (map[letter] || letter)
+			res = res + (map[letter] ?? letter)
 			continue
 		}
 		const next: string = s[i + 1]
+		if (i === 0) {
+			if (letter === "o") {
+				res = res + map["O"]
+			}
+			if (letter === "\\") {
+				res = res + map[next.toLowerCase()]
+				shouldSkip = true
+				continue
+			}
+		}
 		if (letter.toLowerCase() === "c" && next.toLowerCase() === "h") {
 			shouldSkip = true
 			res = res + map["ch"]
-		} else if (next.toLowerCase() === "'")
-			switch (letter.toLowerCase()) {
+		} else if (next === "'")
+			switch (letter) {
 				case "d":
 					shouldSkip = true
 					res = res + map["thl"]
@@ -80,15 +87,19 @@ export const convert = (s: string) => {
 					shouldSkip = true
 					res = res + map["st"]
 					break
+				case "y":
+					shouldSkip = true
+					res = res + map["Y"]
+					break
 				default:
 					shouldSkip = true
-					res = res + (map[letter] || letter)
+					res = res + (map[letter.toLowerCase()] ?? " ")
 					break
 			}
 		else if ("ao".includes(next) && letter === " ") {
 			shouldSkip = true
-			res = res + ' ' +map["A"]
-		} else res = res + (map[letter] || letter)
+			res = res + " " + map["A"]
+		} else res = res + (map[letter] ?? " ")
 	}
 	return res
 }
