@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tunisian-keyboard/static/css/main.37f6e6f0.css",
+    "main.js": "/Tunisian-keyboard/static/js/main.8c6bc430.js",
+    "index.html": "/Tunisian-keyboard/index.html",
+    "main.37f6e6f0.css.map": "/Tunisian-keyboard/static/css/main.37f6e6f0.css.map",
+    "main.8c6bc430.js.map": "/Tunisian-keyboard/static/js/main.8c6bc430.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f6e6f0.css",
+    "static/js/main.8c6bc430.js"
+  ]
+}
