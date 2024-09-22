@@ -1,7 +1,7 @@
 function Title() {
     return (<>
         <p className="title">
-            Welcome
+            
         </p>
     </>);
 }
