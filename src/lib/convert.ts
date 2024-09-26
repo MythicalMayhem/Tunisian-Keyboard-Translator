@@ -100,6 +100,9 @@ export const convert = (s: string) => {
 		else if ("ao".includes(next) && letter === " ") {
 			shouldSkip = true
 			res = res + " " + map["A"]
+		} else if (next === "u" && letter.toLowerCase() === "o") {
+			shouldSkip = true
+			res = res + map["O"]
 		} else res = res + (map[letter] ?? " ")
 	}
 	return res
