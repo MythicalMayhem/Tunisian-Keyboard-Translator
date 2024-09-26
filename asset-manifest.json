@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/css/main.68f1ae42.css",
-    "main.js": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/js/main.a21b6dab.js",
-    "index.html": "/MythicalMayhem/Tunisian-Keyboard-Translator/index.html",
-    "main.68f1ae42.css.map": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/css/main.68f1ae42.css.map",
-    "main.a21b6dab.js.map": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/js/main.a21b6dab.js.map"
+    "main.css": "/mythicalmayhem.github.io/Tunisian-Keyboard-Translator/static/css/main.68f1ae42.css",
+    "main.js": "/mythicalmayhem.github.io/Tunisian-Keyboard-Translator/static/js/main.a21b6dab.js",
+    "index.html": "/mythicalmayhem.github.io/Tunisian-Keyboard-Translator/index.html",
+    "main.68f1ae42.css.map": "/mythicalmayhem.github.io/Tunisian-Keyboard-Translator/static/css/main.68f1ae42.css.map",
+    "main.a21b6dab.js.map": "/mythicalmayhem.github.io/Tunisian-Keyboard-Translator/static/js/main.a21b6dab.js.map"
   },
   "entrypoints": [
     "static/css/main.68f1ae42.css",
