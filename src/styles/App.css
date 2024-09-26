@@ -12,7 +12,7 @@ body,
 }
 #root {
 	min-width: 300px;
-	background: #E5D9F2;
+	background: #fff;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

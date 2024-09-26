@@ -1,6 +1,4 @@
 type alphabet = { [s: string]: string }
-let bcdefghijklmnopqrstuvwxyz = ""
-let BCDEFGHIJKLMNOPQRSTUVWXYZ = ""
 const map: alphabet = {
 	a: "ا",
 	b: "ب",
@@ -25,13 +23,16 @@ const map: alphabet = {
 	u: "",
 	v: "ڥ",
 	w: "و",
+	x: "كس",
 	y: "ى",
 	z: "ز",
 	A: "أ",
 	S: "ص",
 	T: "ط",
 	O: "و",
+	X: "كس",
 	Y: "ي",
+
 	"2": "ء",
 	"3": "ع",
 	"7": "ح",
