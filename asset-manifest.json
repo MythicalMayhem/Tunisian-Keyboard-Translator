@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Tunisian-keyboard/static/css/main.db9c2e32.css",
-    "main.js": "/Tunisian-keyboard/static/js/main.0aebd9ca.js",
-    "index.html": "/Tunisian-keyboard/index.html",
-    "main.db9c2e32.css.map": "/Tunisian-keyboard/static/css/main.db9c2e32.css.map",
-    "main.0aebd9ca.js.map": "/Tunisian-keyboard/static/js/main.0aebd9ca.js.map"
+    "main.css": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/css/main.68f1ae42.css",
+    "main.js": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/js/main.a21b6dab.js",
+    "index.html": "/MythicalMayhem/Tunisian-Keyboard-Translator/index.html",
+    "main.68f1ae42.css.map": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/css/main.68f1ae42.css.map",
+    "main.a21b6dab.js.map": "/MythicalMayhem/Tunisian-Keyboard-Translator/static/js/main.a21b6dab.js.map"
   },
   "entrypoints": [
-    "static/css/main.db9c2e32.css",
-    "static/js/main.0aebd9ca.js"
+    "static/css/main.68f1ae42.css",
+    "static/js/main.a21b6dab.js"
   ]
 }
