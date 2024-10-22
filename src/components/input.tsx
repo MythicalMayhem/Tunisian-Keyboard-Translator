@@ -1,9 +1,8 @@
 import "../styles/module.css"
-import { inputStore } from "../lib/inputStore";
-import { useState } from "react";
+import { inputStore } from "../lib/inputStore"; 
 function MainInput() {
-    const { convert } = inputStore()
-    const [text, setText] = useState<string>()
+    const { convert, setText, current } = inputStore()
+
     const handleInput = (val: string) => {
         convert(val)
         setText(val)
@@ -11,7 +10,7 @@ function MainInput() {
     return (
         <fieldset>
             <p className="legend" >Input </p >
-            <textarea value={text}
+            <textarea value={current}
                 onChange={(e) => handleInput(e.target.value)}
                 spellCheck='false' className="big-input"
                 placeholder="ekteb 7keya" >

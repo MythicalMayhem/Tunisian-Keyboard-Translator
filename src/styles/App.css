@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
+::-webkit-scrollbar {
+	width: 0;
+}
 html,
 body,
 #root {
@@ -10,9 +13,13 @@ body,
 	padding: 0;
 	margin: 0;
 }
+body {
+	background: url('../../public/bg.jpg') center center ;
+	background-size:cover ;
+}
 #root {
-	min-width: 300px;
-	background: #fff;
+	backdrop-filter: blur(15px);
+	min-width: 300px;  
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
